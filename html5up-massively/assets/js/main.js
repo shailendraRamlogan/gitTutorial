@@ -37,6 +37,10 @@
 		if (this.length == 0 || intensity === 0)
 			return $this;
 
+        if (this.length == 0 || intensity === 0)
+			return $this;
+
+
 		if (this.length > 1) {
 
 			for (var i=0; i < this.length; i++)
